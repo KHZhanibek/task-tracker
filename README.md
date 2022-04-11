@@ -1,7 +1,7 @@
 
 # Task Tracker (WEB API)
 
-Simple Task tracker, like trello
+Simple Task tracker, like trello(My First project in Java ever)
 ## Accomplishments
 - [x] 3 layered architecture
 - [x] Connected with PostgerSQL 
