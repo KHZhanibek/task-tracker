@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Malades</h1>
+<!--    <div class="content">-->
+<!--        <div class="project" th:each="project = ${projects}" >-->
+<!--            <form class="crud_form" th:action="@{/project}" method="POST">-->
+<!--                <input type="hidden" name="_method" value="PUT">-->
+<!--                <button type="submit" class="btn btn-primary">Update project</button>-->
+<!--            </form>-->
+<!--            <form class="crud_form" th:action="@{/project/{id}(id=${project.getId()})}" method="POST">-->
+<!--                <input type="hidden" name="_method" value="DELETE">-->
+<!--                <button type="submit" class="btn btn-primary">Delete</button>-->
+<!--            </form>-->
+<!--            <p class=".info" th:text="${project.getName()}"></p>-->
+<!--            <p class=".info" th:text="${project.getStatus()}"></p>-->
+<!--            <p class=".info" th:text="${project.getStartDate()}"></p>-->
+<!--            <p class=".info" th:text="${project.getCompletionDate()}"></p>-->
+<!--            <p class=".info" th:text="${project.getPriority()}"></p>-->
+<!--            <a th:href="@{/project/{id}(id=${project.getId()})/tasks}" class="btn btn-primary">Show Tasks</a>-->
+
+<!--        </div>-->
+
+<!--    </div>-->
+
+<!--    <form class="crud_form" th:action="@{/project}" method="POST">-->
+<!--        <input type="hidden" name="_method" value="PUT">-->
+<!--        <button type="submit" class="btn btn-primary">Update project</button>-->
+<!--    </form>-->
+<!--    <form class="crud_form" th:action="@{/project/{id}(id=${project.getId()})}" method="POST">-->
+<!--        <input type="hidden" name="_method" value="DELETE">-->
+<!--        <button type="submit" class="btn btn-primary">Delete</button>-->
+<!--    </form>-->
+
+<!--    <form th:action="@{/api/v1/project}">-->
+<!--        <input type="text" th:name="participant"/>-->
+<!--        <input type="submit"/>-->
+<!--    </form>-->
+
+<!--    <table>-->
+<!--        <thead>-->
+<!--            <td>Name</td>-->
+<!--            <td>Status</td>-->
+<!--            <td>Start Date</td>-->
+<!--            <td>End Date</td>-->
+<!--            <td>Priority</td>-->
+<!--        </thead>-->
+<!--        <tr>-->
+<!--            <td class=".info" th:text="${project.getName()}"></td>-->
+<!--            <td class=".info" th:text="${project.getStatus()}"></td>-->
+<!--            <td class=".info" th:text="${project.getStartDate()}"></td>-->
+<!--            <td class=".info" th:text="${project.getCompletionDate()}"></td>-->
+<!--            <td class=".info" th:text="${project.getPriority()}"></td>-->
+<!--        </tr>-->
+
+<!--        <a th:href="@{/project/{id}(id=${project.getId()})/tasks}" class="btn btn-primary">Show Tasks</a>-->
+
+
+<!--    </table>-->
+
+</body>
+</html>

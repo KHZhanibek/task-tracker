@@ -1,0 +1,18 @@
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    background-color: lemonchiffon;
+    border: 2px darkblue solid;
+}
+
+.task{
+    width: 250px;
+    border: 1px gray solid;
+}
